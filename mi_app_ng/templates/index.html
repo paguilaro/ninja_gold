@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Ninja Gold</title>
+
+</head>
+
+<body>
+
+    {% for imagen in imagenes %}
+    <img src="{{imagen}}" alt="">
+    {% endfor %}
+
+    <div class="container-fluid" style="background-image: url('img/mapa.jpg');">
+        
+     
+        <div class="row p-1"> 
+                <div class="text-center">    
+                <h1 class="mt-4">Ninja Money</h1>
+                <h3>Your Mora: XX</h3>
+                </div>
+            </div>
+        </div>        
+        
+        
+        <div class="row">
+            <div class="col-2"></div>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://static3.srcdn.com/wordpress/wp-content/uploads/2021/05/Genshin-Impact-Housing.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title">GENSHIN FARM</h5>
+                        <p class="card-text">Earns 10-20 mora</p>
+                        <a href="#" class="btn btn-primary">Find Mora!</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://preview.redd.it/jrdnf43bc5s51.png?width=1920&format=png&auto=webp&s=5fb70afec523e4318b67af6eab047a10fe1280ca" class="card-img-top" alt="genshin_cave">
+                    <div class="card-body border">
+                        <h5 class="card-title">GENSHIN CAVE</h5>
+                        <p class="card-text">Earns 5-10 mora</p>
+                        <a href="#" class="btn btn-primary">Find Mora!</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://staticg.sportskeeda.com/editor/2021/05/26f5c-16202539456912-800.jpg" class="card-img-top" alt="genshin_house">
+                    <div class="card-body">
+                        <h5 class="card-title">GENSHIN HOUSE</h5>
+                        <p class="card-text">Earns 2-5 mora</p>
+                        <a href="#" class="btn btn-primary">Find Mora!</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://kaijugaming.com/wp-content/uploads/2021/07/Genshin-Impact-announces-massive-update-with-new-city-Inazuma-and.jpg" class="card-img-top" alt="genshin_house">
+                    <div class="card-body">
+                        <h5 class="card-title">GENSHIN CASINO</h5>
+                        <p class="card-text">Earns 0-50 mora</p>
+                        <a href="#" class="btn btn-primary">Find Mora!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+
+</body>
+
+</html>
